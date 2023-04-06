@@ -42,7 +42,7 @@ public:
         }
         Node *temp = top;
         top = top->next;
-        cout << "Element popped" << temp->data << endl;
+        cout << "Element popped: " << temp->data << endl;
         delete temp;
     }
 
